@@ -1,4 +1,4 @@
-# 🛠️ macOS Monterey Haswell OpenCore 1.0.7
+# 🛠️ MacOS Sequoia Haswell OpenCore 1.0.7
 
 My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core running with H81 chipset.
 
@@ -13,7 +13,7 @@ My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core run
 | Network       | Realtek® RTL8111G Onboard                                                                 |
 | Bluetooth     | TP-Link UB500 (RTL8761BU)                                                                 |
 | Boot-Args     | `-v keepsyms=1 debug=0x100 amfi=0x80 ipc_control_port_options=0 alcid=1` |
-| SMBIOS        | iMac17,1 (Desktop with dGPU)[^2]                                                          |
+| SMBIOS        | iMac20,1 (Desktop with dGPU)[^2]                                                          |
 
 > [!NOTE]
 > 
@@ -41,7 +41,7 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 ## 🔧 Improvements
 
 -   This version was initially prepared using OpenCore 1.0.7 for macOS Tahoe (26).
--   This EFI config has been tested on macOS monterey and it was running well (12.7.6).
+-   This EFI config has been tested on macOS Sequoia and it was running well (15.7.7).
 -   This EFI config has not yet been tested with macOS Tahoe (26). I don't know if this version is still Hackintosh-able or if it still supports Intel-based systems. This version is still in the Developer Beta stage at the time of writing this text.
 
 > [!NOTE]
@@ -49,12 +49,12 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 
 ## 🖼️ Screenshots
 
-These are screenshots that I took on macOS Monterey (version 12.7.6).
+These are screenshots that I took on macOS Sequoia (version 15.7.7).
 
 ![Image 1](assets/image.png)
 
 [^1]: OCLP (OpenCore Legacy Patcher) is a Python-based project for both running and unlocking features in macOS on supported and unsupported Macs, such as Patching GPU drivers.
-[^2]: For those using desktop with iGPU (Integrated GPU), they should use `iMac16,1` for their SMBIOS.
+[^2]: For those using desktop with iGPU (Integrated GPU), they should use `iMac18,1` for their SMBIOS.
 [^3]: Highest Supported OS for NVIDIA Kepler GPU series are macOS Big Sur (11). Further macOS version needs to be patched with OCLP.
 
 Thx: @azukashi For reverence
