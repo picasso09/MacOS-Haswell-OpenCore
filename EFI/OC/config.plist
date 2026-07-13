@@ -1227,7 +1227,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C026527014NGPF7JA</string>
+                <string>C02209101GUPHC11M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1239,11 +1239,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac17,1</string>
+                <string>iMac20,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02SW0N7GG7L</string>
+                <string>C02HC8YLPN5T</string>
                 <key>SystemUUID</key>
-                <string>BBA688B1-B407-4AD8-AC8F-A023DBB5B957</string>
+                <string>9FD4B6C1-D5EE-4275-8148-5B44D5895D36</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
