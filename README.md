@@ -9,10 +9,10 @@ My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core run
 | Motherboard   | MSI H81-P33                                                                               |
 | Processor     | Intel Core i3-4170 @ 3.70 Ghz                                                             |
 | Graphics      | NVIDIA GeForce GT 730 2G(Kepler/GK208)[^3]                                                |
-| Audio         | Realtek ALC887 (`alcid=1`)                                                                |
+| Audio         | Realtek ALC887 (`alcid=7`)                                                                |
 | Network       | Realtek® RTL8111G Onboard                                                                 |
 | Bluetooth     | TP-Link UB500 (RTL8761BU)                                                                 |
-| Boot-Args     | `-v keepsyms=1 debug=0x100 amfi=0x80 ipc_control_port_options=0 alcid=1` |
+| Boot-Args     | `amfi=0x80 ipc_control_port_options=0 alcid=7` |
 | SMBIOS        | iMac20,1 (Desktop with dGPU)[^2]                                                          |
 
 > [!NOTE]
